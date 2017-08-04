@@ -1,7 +1,10 @@
 package com.codepath.apps.MySimpleTweet.models;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.ArrayList;
 
 /**
  * Created by East Coast Pawn on 8/3/2017.
@@ -42,4 +45,24 @@ public class Tweet {
         }
         return  tweet;
     }
+    public static ArrayList<Tweet> fromJSONArray(JSONArray jsonArray)
+    {
+     ArrayList<Tweet> tweets = new ArrayList<>();
+        for (int i = 0; i < jsonArray.length(); i++)
+        {
+            try {
+                JSONObject tweetJson = jsonArray.getJSONObject(i);
+                Tweet tweet = Tweet.fromJSON(tweetJson);
+                if (tweet != null)
+                {
+                tweets.add(tweet);
+                }
+            }catch (JSONException e)
+            {
+                e.printStackTrace();
+                continue;
+            }
+        }
+    return tweets;
+}
 }
