@@ -1,4 +1,4 @@
-package com.codepath.apps.MySimpleTweet;
+package com.codepath.apps.MySimpleTweet.adapters;
 
 import android.content.Context;
 import android.support.annotation.LayoutRes;
@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.codepath.apps.MySimpleTweet.R;
 import com.codepath.apps.MySimpleTweet.models.Tweet;
 import com.squareup.picasso.Picasso;
 

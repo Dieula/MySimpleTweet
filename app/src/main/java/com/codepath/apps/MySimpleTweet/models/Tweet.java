@@ -14,12 +14,13 @@ public class Tweet {
     private String body;
     private  long uid;
     private String createdAt;
+    private User user;
 
     public User getUser() {
         return user;
     }
 
-    private User user;
+
     public String getBody() {
         return body;
     }

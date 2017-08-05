@@ -35,7 +35,7 @@ public class User {
         try {
             u.name = json.getString("name");
             u.uid = json.getLong("id");
-            u.ScreenName = json.getString("Screen_name");
+            u.ScreenName = json.getString("screen_name");
             u.profileImageUrl = json.getString("profile_image_url");
         }catch (JSONException e)
         {
