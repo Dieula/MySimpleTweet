@@ -30,4 +30,14 @@
         android:layout_marginStart="11dp"
         android:layout_below="@+id/tvUserName"
         android:layout_toEndOf="@+id/ivProfileImage" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/ivProfileImage"
+        android:layout_alignStart="@+id/tvbody" />
+
+
 </RelativeLayout>

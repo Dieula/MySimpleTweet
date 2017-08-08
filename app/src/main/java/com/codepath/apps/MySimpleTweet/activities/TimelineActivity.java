@@ -1,6 +1,7 @@
 package com.codepath.apps.MySimpleTweet.activities;
 
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.ListView;
@@ -16,6 +17,9 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+
+import static com.codepath.apps.MySimpleTweet.R.drawable.ic_launcher;
+import static com.codepath.apps.MySimpleTweet.R.drawable.twitter_logo;
 
 public class TimelineActivity extends AppCompatActivity
 {
@@ -42,8 +46,17 @@ public class TimelineActivity extends AppCompatActivity
         populateTimeline();
        // Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
       //setSupportActionBar(toolbar);
+  /*   getSupportActionBar().setDisplayShowHomeEnabled(true);
+     getSupportActionBar().setLogo(twitter_logo);
+     getSupportActionBar().setDisplayUseLogoEnabled(true);
+    
 
-
+      /*  ActionBar ab = getSupportActionBar();
+        ab.setDisplayShowHomeEnabled(true);
+        ab.setDisplayUseLogoEnabled(true);
+        ab.setLogo(R.drawable.twitter_logo);
+        ab.setTitle("");
+      */
     }
 
     private void populateTimeline()
