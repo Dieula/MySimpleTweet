@@ -1,4 +1,4 @@
-package com.codepath.apps.MySimpleTweet.utils;
+package com.codepath.apps.MyTwitterApp.utils;
 
 import com.raizlabs.android.dbflow.config.FlowConfig;
 import com.raizlabs.android.dbflow.config.FlowLog;

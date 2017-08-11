@@ -10,5 +10,6 @@
     <string name="username" />
     <string name="screen_name" />
     <string name="tweet_hint" />
+    <string name="title_activity_profile">Profile</string>
 
 </resources>

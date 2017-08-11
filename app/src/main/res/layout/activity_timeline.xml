@@ -4,27 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.codepath.apps.MySimpleTweet.activities.TimelineActivity">
+    tools:context="com.codepath.apps.MyTwitterApp.activities.TimelineActivity">
 
-    <android.support.design.widget.AppBarLayout
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        app:pstsShouldExpand="true"
+        app:pstsTextAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_below="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/abLayout"
-        android:theme="@style/AppTheme.AppBarOverlay"
-        android:layout_marginBottom="5dp">
+        android:background="@android:color/white" />
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@android:color/holo_blue_light"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="MyTwitter App" />
-
-    </android.support.design.widget.AppBarLayout>
-
-    <include layout="@layout/content_timeline"
-        android:layout_below="@+id/abLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 </RelativeLayout>

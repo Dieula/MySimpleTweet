@@ -3,4 +3,6 @@
     <item name="tvRemainingChars" type="id" />
     <item name="tvScreenName" type="id" />
     <item name="etBody" type="id" />
+    <item name="action_settings" type="id" />
+    <item name="toolbar" type="id" />
 </resources>

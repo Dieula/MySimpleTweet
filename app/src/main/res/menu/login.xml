@@ -9,7 +9,7 @@
         </item>
         <item
             android:id="@+id/miProfile"
-            android:icon="@mipmap/ic_profile"
+            android:icon="@drawable/ic_profile"
             app:showAsAction="ifRoom|withText"
             android:title="Profile">
         </item>
