@@ -3,13 +3,6 @@
 
 **My Simple Tweet** is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 =======
-# Project 4 - *MyTwitterApp*
-
-**MyTwitterApp** is an android app that allows a user to view home and mentions timelines, view user profiles with user timelines, as well as compose and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
->>>>>>> 949fa3a7be65f2891fc212e4a9ce4788655026a7
-
-Time spent: **X** hours spent in total
-
 ## User Stories
 
 The following **required** functionality is completed:
