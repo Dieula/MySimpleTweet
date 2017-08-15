@@ -46,11 +46,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<<<<<<< HEAD
 <img src='http://i.imgur.com/ciWUah6.gif' title='Dareus' width='' alt='Video Walkthrough' />
-=======
-<img src='http://i.imgur.com/ciWUah6.gif title='Dareus' width='' alt='Video Walkthrough' />
->>>>>>> 5c1022053f3a08089f2bdfa07976415b528c688b
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
