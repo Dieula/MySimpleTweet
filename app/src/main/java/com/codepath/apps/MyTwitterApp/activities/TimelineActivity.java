@@ -29,8 +29,7 @@ public class TimelineActivity extends ActionBarActivity
         //Find the slinding tabstrip
         PagerSlidingTabStrip tabStrip = (PagerSlidingTabStrip) findViewById(R.id.tabs);
         tabStrip.setViewPager(vpPager);
-         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+         
     }
 
 
@@ -75,10 +74,12 @@ public class TimelineActivity extends ActionBarActivity
             }
         }
         public CharSequence getPageTitle(int position)
+
         {
             return tabTitles[position];
         }
         public int getCount()
+
         {
             return tabTitles.length;
         }
