@@ -1,9 +1,16 @@
 # Project 4 - *My Twitter*
 
+<<<<<<< HEAD
 **My Twitter app** is an android app that allows a user to view home and mentions timelines, view user profiles with user timelines, as well as compose and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
 Time spent: **X** hours spent in total
 
+=======
+<<<<<<< HEAD
+**My Twitter App** is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
+=======
+>>>>>>> a6f3431f2456fd1fd01f0b85210a7a4ae5c20e9c
+>>>>>>> 0587659c3076864a27cddbf2a4eccf551e9d0fe0
 ## User Stories
 
 The following **required** functionality is completed:
